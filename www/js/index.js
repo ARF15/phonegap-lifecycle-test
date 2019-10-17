@@ -22,6 +22,11 @@ var displayValue3 = window.localStorage.getItem(key3);
 var displayValue4 = window.localStorage.getItem(key4);
 var displayValue5 = window.localStorage.getItem(key5);
 
+var chocBar = { "name":"Kinder Bueno", calories:250, carbs:30, fat: 10 };
+alert(chocBar);
+var chocBarJSON = JSON.stringify(chocBar);
+alert(chocBarJSON);
+var chocBarBackToJS = JSON.parse(chocBarJSON);
 
 document.addEventListener('deviceready', onDeviceReady, false);
 
