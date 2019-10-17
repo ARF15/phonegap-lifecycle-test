@@ -28,5 +28,6 @@ $("#myValue3").text(displayValue3);
 $("#myValue4").text(displayValue4);
 $("#myValue5").text(displayValue5);
 
-var newValue = window.localStorage.getItem(key1);
+var newKey = "penNew";
+var newValue = window.localStorage.getItem(newKey);
 $("#myNewValue").text(newValue);
