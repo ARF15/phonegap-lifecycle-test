@@ -26,19 +26,9 @@ var displayValue5 = window.localStorage.getItem(key5);
 document.addEventListener('deviceready', onDeviceReady, false);
 
 function onDeviceReady() {
-	
-	
-
 	$("#myValue1").text(displayValue1);
 	$("#myValue2").text(displayValue2);
 	$("#myValue3").text(displayValue3);
 	$("#myValue4").text(displayValue4);
 	$("#myValue5").text(displayValue5);
-
-
-	var newKey = "penNew";
-	var newValue = window.localStorage.getItem(newKey);
-	$("#myNewValue").text(newValue);
-
-
 }
